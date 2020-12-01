@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Employe from './Employe';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -26,11 +25,13 @@ class App extends Component {
     }
  
     return (
-      <div className="list">
-        {employees.map(employee =>
-          <Employe employe={employee}>
-          </Employe>
-        )}
+      <div id="page">
+        <div id="liste">
+          {employees.map(employee =>
+            <Employe employe={employee}>
+            </Employe>
+          )}
+        </div>
       </div>
     );
   }
