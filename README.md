@@ -4,7 +4,7 @@ Ce projet est un le résultat d'un exercice de test réalisé dans le cadre d'un
 
 ## How to run
 
-Pour tester le programme, tout simplement télecharger le repo, se placer dedans avec sa console, et run la commande "npm start". Nécessite d'avoir npm d'installé sur la machine. Le programme a été créé à l'aide de la fonction "npx create-react-app". Aucune attention n'a été prété aux fichiers de test, à l'index.js et au gitignore.
+Pour tester le programme, tout simplement télecharger le repo, se placer dedans avec sa console, et run les commandes "npm install" puis "npm start". Nécessite d'avoir npm d'installé sur la machine. Cela ouvrira une fenêtre de votre naviguateur par défaut sur le port 3000. Le programme a été créé à l'aide de la fonction "npx create-react-app". Aucune attention n'a été prété aux fichiers de test, à l'index.js et au gitignore.
 
 ## Informations complémentaires
 
