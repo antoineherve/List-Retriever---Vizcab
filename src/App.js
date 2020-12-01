@@ -21,7 +21,11 @@ class App extends Component {
     const employees = this.state.employees;
 
     if (employees === null) {
-      return <p>Loading ...</p>;
+      return (
+        <div id="page">
+          <h1 className="loading">Loading ...</h1>
+        </div>
+      );
     }
  
     return (
@@ -36,7 +40,6 @@ class App extends Component {
       </div>
     );
   }
-
 }
  
 export default App;
