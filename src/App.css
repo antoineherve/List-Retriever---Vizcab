@@ -1,27 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 body {
-  background-color: #1a1c29;
+  background: rgb(72,31,99);
+  background: linear-gradient(158deg, rgba(72,31,99,1) 0%, rgba(45,124,145,1) 50%, rgba(125,177,156,1) 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 #page {
-  height: 100%;
-  width: 100%;
+  text-align: center;
 }
 
-#liste {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+h1 {
+  color: #f8f8f8;
+  font-family: 'Merriweather', serif;
+  margin: 50px 0;
 }
 
 .employe {
   background-color: #f8f8f8;
   border-radius: 30px;
-  font-size: 1rem;
-  margin-bottom: 20px;
+  margin: 20px auto;
   padding: 20px;
-  width: 350px;
+  text-align: left;
+  width: 400px;
+}
+
+.info {
+  width: 100%;
 }
 
 .e_name {
   color: #111111;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.e_title {
+  color: #333333;
+  font-size: 14px;
+  position: relative;
+  right: 0px;
+}
+
+.e_detail{
+  color: #111111;
+  font-size: 16px;
+}
+
+.e_departement {
+  color: #333333;
+  font-size: 14px;
 }

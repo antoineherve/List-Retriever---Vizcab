@@ -26,6 +26,7 @@ class App extends Component {
  
     return (
       <div id="page">
+        <h1>Liste des employés</h1>
         <div id="liste">
           {employees.map(employee =>
             <Employe employe={employee}>
