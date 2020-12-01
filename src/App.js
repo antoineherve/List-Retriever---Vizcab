@@ -20,6 +20,7 @@ class App extends Component {
   render() {
     const employees = this.state.employees;
 
+    // Rendu avant chargement des données
     if (employees === null) {
       return (
         <div id="page">
@@ -28,11 +29,12 @@ class App extends Component {
       );
     }
  
+    // Rendu une fois les données chargées.
     return (
       <div id="page">
         <h1>Liste des employés</h1>
         <div id="liste">
-          {employees.map(employee =>
+          {employees.map(employee => // On parcourt le data reçu en state avec la fonction map, et pour chaque employé ajoutons le component maison Employe
             <Employe employe={employee}>
             </Employe>
           )}
